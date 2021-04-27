@@ -4,7 +4,7 @@
 import os
 import time
 
-from jaime_bot_1 import JaimeBot1
+from ./jaime_bot_1 import JaimeBot1
 
 
 # Definición de funciones
