@@ -4,12 +4,17 @@
 import os
 import time
 
-from jaime_bot_1 import JaimeBot1
+from IAs.Jaime.jaime_bot_1 import JaimeBot1
+from IAs.Jaime.jaime_bot_2 import JaimeBot2
+from IAs.Jaime.jaime_bot_3 import JaimeBot3
+from IAs.Jaime.jaime_bot_pro_1 import JaimeBotPro1
+from IAs.Jaime.jaime_bot_pro_2 import JaimeBotPro2
+"""
 from jaime_bot_2 import JaimeBot2
 from jaime_bot_3 import JaimeBot3
 from jaime_bot_pro_1 import JaimeBotPro1
 from jaime_bot_pro_2 import JaimeBotPro2
-
+"""
 
 # Definición de funciones
 
@@ -120,8 +125,8 @@ bot3      = JaimeBot3()
 bot_pro_1 = JaimeBotPro1()
 bot_pro_2 = JaimeBotPro2()
 
-IA_1 = bot1
-IA_2 = bot_pro_2
+IA_1 = bot2
+IA_2 = bot1
 
 partidas_ganadas = [0, 0]
 
